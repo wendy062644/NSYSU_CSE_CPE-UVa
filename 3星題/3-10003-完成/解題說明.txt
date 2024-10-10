@@ -1,0 +1,4 @@
+先列出遞迴關係式，可以發現f(l, r) = f(l, index) + f(index, r) + v[r] - v[l]。
+f(l, r) 代表 l~r 的總成本，f(l, index) + f(index, r) 代表在 l 和 r 之間切 index 的位置，而成本是 v[r] - v[l] 右邊到左邊的長度。
+再使用動態規劃完成。
+與 AP325 的棍子中點切割題目一樣。

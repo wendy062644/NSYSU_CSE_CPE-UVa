@@ -1,0 +1,1 @@
+該解法為講義內的All pairs shortest paths，將每個點連線的最短距離算出來O(n^3)，最後再查找
